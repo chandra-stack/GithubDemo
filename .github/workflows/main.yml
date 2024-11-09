@@ -4,6 +4,7 @@ on:
     branches: [ master, feature1]
   pull_request:
     branches: [ master ]
+  workflow_dispatch: 
 
 jobs:
   greet:
