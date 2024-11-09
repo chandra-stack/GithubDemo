@@ -13,4 +13,4 @@ jobs:
       - name: Print Hello world
         run: |
           echo "hello, changes been pushed/PR has been raised/closed"
-          echo "Changes are pushed!"
+          echo "Changes are pushed!!"
