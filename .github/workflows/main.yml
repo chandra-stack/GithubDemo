@@ -4,6 +4,7 @@ on:
     branches: [ master, feature1]
   pull_request:
     branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   greet:
@@ -12,3 +13,4 @@ jobs:
       - name: Print Hello world
         run: |
           echo "hello, changes been pushed/PR has been raised/closed"
+          echo "Changes are pushed"
